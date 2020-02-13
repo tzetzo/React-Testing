@@ -23,7 +23,7 @@ const setup = (initialState = {}) => {
   const store = storeFactory(initialState);
   // console.log(store.getState());
   const wrapper = shallow(<Input store={store} />)
-    .dive() //gets the child component or element
+    .dive() //gets the child component or element; used only with connected to Redux Store Components!
     .dive();
   return wrapper;
 };
