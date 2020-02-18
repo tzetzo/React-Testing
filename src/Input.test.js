@@ -27,7 +27,7 @@ const setup = (initialState = {}) => {
     .dive();
   return wrapper;
 };
-
+//delete
 // Redux recommended approach:
 // const setup = (props = { success: false }) => {
 //   return shallow(<Input {...props} />);
