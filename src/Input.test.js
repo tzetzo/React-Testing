@@ -27,7 +27,7 @@ const setup = (initialState = {}) => {
     .dive();
   return wrapper;
 };
-// master
+// tzetzo feature
 // Redux recommended approach:
 // const setup = (props = { success: false }) => {
 //   return shallow(<Input {...props} />);
