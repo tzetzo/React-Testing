@@ -32,4 +32,4 @@ export default connect(
   mapStateToProps,
   { getSecretWord }
 )(UnconnectedApp);
-//done on remote repo
+
