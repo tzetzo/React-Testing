@@ -16,7 +16,7 @@ export const storeFactory = initialState => {
   );
   return createStoreWithMiddleware(rootReducer, initialState);
 };
-//again
+// delete this 1
 /**
  * Return ShallowWrapper containing node(s) with the given data-test value.
  * @param {ShallowWrapper} wrapper - Enzyme shallow wrapper to search within.
