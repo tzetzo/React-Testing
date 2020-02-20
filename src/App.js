@@ -33,3 +33,4 @@ export default connect(
   { getSecretWord }
 )(UnconnectedApp);
 
+//to be removed
