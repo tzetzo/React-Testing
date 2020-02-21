@@ -32,5 +32,3 @@ export default connect(
   mapStateToProps,
   { getSecretWord }
 )(UnconnectedApp);
-
-//to be removed
